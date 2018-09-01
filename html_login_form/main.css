@@ -43,7 +43,6 @@ body {
     padding: 5vh 15px;
 }
 
-
 #form_left {
     /* center the image */
     display: flex;
@@ -124,7 +123,6 @@ span {
     cursor: pointer;
 }
 
-
 /* shift it a bit lower */
 #create_account {
     display: block;
@@ -145,4 +143,19 @@ a:hover {
 
 i {
     color: var(--icon_color);
+}
+
+/* make it responsive */
+@media screen and (max-width:768px) {
+
+    /* make the layout  a single column and add some margin to the wrapper */
+    #form_wrapper {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* on small screen we don't display the image */
+    #form_left {
+        display: none;
+    }
 }
