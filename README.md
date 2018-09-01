@@ -10,7 +10,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/AlbertoMontalesi/JavaScript-es6-and-beyond-ebook/total.svg)](https://github.com/AlbertoMontalesi/InspiredWebDev-Tutorials)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/AlbertoMontalesi/InspiredWebDev-Tutorials/pulls)
-[![HitCount](http://hits.dwyl.io/albertomontalesi/JavaScript-es6-and-beyond-ebook.svg)](http://hits.dwyl.io/albertomontalesi/JInspiredWebDev-Tutorials)
+[![HitCount](http://hits.dwyl.io/albertomontalesi/InspiredWebDev-Tutorials.svg)](http://hits.dwyl.io/albertomontalesi/InspiredWebDev-Tutorials)
 
 This repo hosts the code for all my tutorials
 
