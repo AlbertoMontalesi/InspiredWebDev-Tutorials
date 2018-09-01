@@ -1,10 +1,12 @@
 :root {
-    --body_gradient_left:#7200D0;
+    --body_gradient_left: #7200D0;
     --body_gradient_right: #C800C1;
     --form_bg: #ffffff;
     --input_bg: #E5E5E5;
+    --input_hover: #eaeaea;
     --submit_bg: #1FCC44;
     --submit_hover: #40e263;
+    --icon_color: #6b6b6b;
 }
 
 * {
@@ -13,93 +15,134 @@
     box-sizing: border-box;
 }
 
-
-
 body {
+    /* make the body full height*/
     height: 100vh;
+    /* set our custom font */
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
+    /* create a linear gradient*/
     background-image: linear-gradient(to right, var(--body_gradient_left), var(--body_gradient_right));
-    display:flex;
+    display: flex;
 }
 
 #form_wrapper {
     width: 1000px;
     height: 700px;
-    margin:auto;
-    /* display: flex;
-    flex-direction: column; */
+    /* this will help us center it*/
+    margin: auto;
     background-color: var(--form_bg);
-    border-radius: 10px;
-      display: grid;
-      /* flex-direction: row; */
-      /* justify-content: space-between; */
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 5vw;
-      padding: 5vh 15px;
-}
-/* both sides are same width */
-#form_left,
-#form_right {
-    flex: 1;
+    border-radius: 50px;
+    /* make it a grid container*/
+    display: grid;
+    /* with two columns of same width*/
+    grid-template-columns: 1fr 1fr;
+    /* with a small gap in between them*/
+    grid-gap: 5vw;
+    /* add some padding around */
+    padding: 5vh 15px;
 }
 
 
-#form_left
- {
+#form_left {
+    /* center the image */
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 
 #form_left img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
-
-
 
 #form_right {
     display: grid;
+    /* single column layout */
     grid-template-columns: 1fr;
-    /* grid-gap: 10px; */
-    padding:10% 5%;
+    /* have some gap in between elements*/
+    grid-gap: 20px;
+    padding: 10% 5%;
+}
+
+h1,
+span {
+    text-align: center;
+}
+
+.input_container {
+    background-color: var(--input_bg);
+    /* vertically align icon and text inside the div*/
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.input_container:hover {
+    background-color: var(--input_hover);
+}
+
+.input_container,
+#input_submit {
+    height: 60px;
+    /* make the borders more round */
+    border-radius: 30px;
+    width: 100%;
 }
 
 .input_field {
-    height: 60px;
-    background-color: var(--input_bg);
-    border-radius: 10px;
+    /* customize the input tag with lighter font and some padding*/
+    color: var(--icon_color);
+    background-color: inherit;
+    width: 90%;
     border: none;
     font-size: 1.3rem;
     font-weight: 400;
-    padding-left: 5px;
+    padding-left: 30px;
 }
 
+.input_field:hover,
 .input_field:focus {
     /* remove the outline */
     outline: none;
 }
 
 #input_submit {
+    /* submit button has a different color and different padding */
     background-color: var(--submit_bg);
- 
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
 }
+
 #input_submit:hover {
     background-color: var(--submit_hover);
+    /* simple color transition on hover */
     transition: background-color,
-    1s;
+        1s;
     cursor: pointer;
 }
 
 
+/* shift it a bit lower */
+#create_account {
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
 a {
+    /* remove default underline */
     text-decoration: none;
     color: var(--submit_bg);
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: var(--submit_hover);
+}
+
+i {
+    color: var(--icon_color);
 }
