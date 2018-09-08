@@ -43,6 +43,7 @@ h1 {
 }
 
 .slide {
+    /* we position the slide absolutely compared to its parent #slider */
     position: absolute;
     left: 0px;
     top: 0px;
@@ -50,6 +51,7 @@ h1 {
     height: 100%;
     opacity: 0;
     z-index: 1;
+    /* change the value for a faster or slower transition between slides */
     -webkit-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     transition: opacity 0.5s;

@@ -62,4 +62,4 @@ document.addEventListener("DOMContentLoaded", () => {
         positionSliderButton();
     });
 
-})
+});
