@@ -33,6 +33,6 @@ If you are interested in learning JavaScript, don't forget to [check out my e-bo
 
 ---
 
-## [3 Smooth Scroll Navigation](https://www.inspiredwebdev.com/)
+## [3 Smooth Scroll Navigation](https://www.inspiredwebdev.com/2018/12/tutorial-3-smooth-scrolling-navigation/)
 
 ![project 3 - Smooth Scroll Navigation](/screenshots/3_smooth_scroll.gif)
