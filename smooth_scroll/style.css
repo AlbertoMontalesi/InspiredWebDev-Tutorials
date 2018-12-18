@@ -1,0 +1,54 @@
+/* basic styling to make the links bigger */
+#navigation {
+  display: flex;
+  /* make the navbar alway stay on top */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#navigation span {
+  flex-grow: 1;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation span a {
+  display: inline-block;
+}
+
+/* when a link is clicked, it gets highlighted */
+.highlighted {
+  color: red;
+}
+
+/* make each section taller and give them different colors */
+#content {
+  margin-top: 50px;
+}
+
+#content div {
+  height: 100vh;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#section1 {
+  background-color: lightcoral;
+}
+
+#section2 {
+  background-color: lightblue;
+}
+
+#section3 {
+  background-color: lightgreen;
+}

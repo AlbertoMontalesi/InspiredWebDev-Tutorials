@@ -30,3 +30,9 @@ If you are interested in learning JavaScript, don't forget to [check out my e-bo
 ## [2 JavaScript Carousel](https://www.inspiredwebdev.com/2018/09/tutorial-2-javascript-carousel/)
 
 ![project 2 - javascript carousel](/screenshots/2_Carousel.gif)
+
+---
+
+## [3 Smooth Scroll Navigation](https://www.inspiredwebdev.com/)
+
+![project 3 - Smooth Scroll Navigation](/screenshots/3_smooth_scroll.gif)
