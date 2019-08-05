@@ -16,23 +16,34 @@ This repo hosts the code for all my tutorials
 
 Follow me on my [Blog](https://inspiredwebdev.com) for more tutorials and articles.
 
-If you are interested in learning JavaScript, don't forget to [check out my e-book](http://bit.ly/2kGMwKn)
+If you are interested in learning JavaScript, don't forget to [check out my e-book](https://github.com/AlbertoMontalesi/The-complete-guide-to-modern-JavaScript)
 
 ---
 
+## [1 To Do List](https://www.inspiredwebdev.com/tutorial/how-to-create-a-to-do-list-with-javascript)
 
-## [1 Simple HTML Form](https://www.inspiredwebdev.com/2018/09/responsive-html-login-form-tutorial/)
+![project 1 - to do list](/screenshots/4_todo_list.png)
+
+---
+
+## [2 Simple HTML Form](https://www.inspiredwebdev.com/tutorial/create-responsive-html-login-form)
 
 ![project 1 - simple html form](/screenshots/1_HTML_form.png)
 
 ---
 
-## [2 JavaScript Carousel](https://www.inspiredwebdev.com/2018/09/tutorial-2-javascript-carousel/)
+## [3 JavaScript Carousel](https://www.inspiredwebdev.com/tutorial/javascript-carousel)
 
 ![project 2 - javascript carousel](/screenshots/2_Carousel.gif)
 
 ---
 
-## [3 Smooth Scroll Navigation](https://www.inspiredwebdev.com/2018/12/tutorial-3-smooth-scrolling-navigation/)
+## [4 Smooth Scroll Navigation](https://inspiredwebdev.com/tutorial/smooth-scrolling-navigation)
 
 ![project 3 - Smooth Scroll Navigation](/screenshots/3_smooth_scroll.gif)
+
+---
+
+## [5 Random Quote Machine](https://inspiredwebdev.com/tutorial/create-random-quote-machine)
+
+![project 3 - Smooth Scroll Navigation](/screenshots/5_random_quote.gif)
