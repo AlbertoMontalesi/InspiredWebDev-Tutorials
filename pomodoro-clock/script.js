@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const pomodoroTimer = document.querySelector("#pomodoro-timer");
 
   const startButton = document.querySelector("#pomodoro-start");
   const stopButton = document.querySelector("#pomodoro-stop");
@@ -27,6 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
   breakDurationInput.value = "5";
 
   let isClockStopped = true;
+  
+ const progressBar = new ProgressBar.Circle("#pomodoro-timer", {
+   strokeWidth: 2,
+   text: {
+     value: "25:00"
+   },
+   trailColor: "#f4f4f4",
+ });
+
   // START
   startButton.addEventListener("click", () => {
     toggleClock();
@@ -56,7 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (reset) {
       stopClock();
     } else {
-      console.log(isClockStopped);
       if (isClockStopped) {
         setUpdatedTimers();
         isClockStopped = false;
@@ -73,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         clockTimer = setInterval(() => {
           stepDown();
           displayCurrentTimeLeftInSession();
+          progressBar.set(calculateSessionProgress());
         }, 1000);
         isClockRunning = true;
       }
@@ -92,9 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (hours > 0) result += `${hours}:`;
     result += `${addLeadingZeroes(minutes)}:${addLeadingZeroes(seconds)}`;
-    console.log(pomodoroTimer);
-    console.log(result.toString());
-    pomodoroTimer.innerText = result.toString();
+    progressBar.text.innerText = result.toString();
   };
 
   const stopClock = () => {
@@ -121,12 +127,14 @@ document.addEventListener("DOMContentLoaded", () => {
         currentTimeLeftInSession = breakSessionDuration;
         displaySessionLog("Work");
         type = "Break";
+        setUpdatedTimers();
         // new
         currentTaskLabel.value = "Break";
         currentTaskLabel.disabled = true;
       } else {
         currentTimeLeftInSession = workSessionDuration;
         type = "Work";
+        setUpdatedTimers();
         // new
         if (currentTaskLabel.value === "Break") {
           currentTaskLabel.value = workSessionLabel;
@@ -143,7 +151,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // append li to it
     const li = document.createElement("li");
     if (type === "Work") {
-      console.log(currentTaskLabel);
       sessionLabel = currentTaskLabel.value ? currentTaskLabel.value : "Work";
       workSessionLabel = sessionLabel;
     } else {
@@ -194,4 +201,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const stopButton = document.querySelector("#pomodoro-stop");
     stopButton.classList.remove("hidden");
   };
+
+  const calculateSessionProgress = () => {
+    // calculate the completion rate of this session
+    const sessionDuration =
+      type === "Work" ? workSessionDuration : breakSessionDuration;
+    return (timeSpentInCurrentSession / sessionDuration) * 10;
+  };
+
 });
