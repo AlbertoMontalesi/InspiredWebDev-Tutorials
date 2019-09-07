@@ -20,15 +20,23 @@ If you are interested in learning JavaScript, don't forget to [check out my e-bo
 
 ---
 
-## [1 To Do List](https://www.inspiredwebdev.com/tutorial/how-to-create-a-to-do-list-with-javascript)
+---
 
-![project 1 - to do list](/screenshots/4_todo_list.png)
+## [6 Pomodoro Clock](https://inspiredwebdev.com/tutorial/create-pomodoro-clock)
+
+![pomodoro clock](/screenshots/6_pomodoro_clock.gif)
 
 ---
 
-## [2 Simple HTML Form](https://www.inspiredwebdev.com/tutorial/create-responsive-html-login-form)
+## [5 Random Quote Machine](https://inspiredwebdev.com/tutorial/create-random-quote-machine)
 
-![project 1 - simple html form](/screenshots/1_HTML_form.png)
+![random quote machine](/screenshots/5_random_quote.gif)
+
+---
+
+## [4 Smooth Scroll Navigation](https://inspiredwebdev.com/tutorial/smooth-scrolling-navigation)
+
+![smooth scroll navigation](/screenshots/3_smooth_scroll.gif)
 
 ---
 
@@ -38,12 +46,12 @@ If you are interested in learning JavaScript, don't forget to [check out my e-bo
 
 ---
 
-## [4 Smooth Scroll Navigation](https://inspiredwebdev.com/tutorial/smooth-scrolling-navigation)
+## [2 Simple HTML Form](https://www.inspiredwebdev.com/tutorial/create-responsive-html-login-form)
 
-![project 3 - Smooth Scroll Navigation](/screenshots/3_smooth_scroll.gif)
+![project 1 - simple html form](/screenshots/1_HTML_form.png)
 
 ---
 
-## [5 Random Quote Machine](https://inspiredwebdev.com/tutorial/create-random-quote-machine)
+## [1 To Do List](https://www.inspiredwebdev.com/tutorial/how-to-create-a-to-do-list-with-javascript)
 
-![project 3 - Smooth Scroll Navigation](/screenshots/5_random_quote.gif)
+![project 1 - to do list](/screenshots/4_todo_list.png)
