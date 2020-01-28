@@ -24,34 +24,34 @@ If you are interested in learning JavaScript, don't forget to [check out my e-bo
 
 ## [6 Pomodoro Clock](https://inspiredwebdev.com/tutorial/create-pomodoro-clock)
 
-![pomodoro clock](/screenshots/6_pomodoro_clock.gif)
+![pomodoro clock](/screenshots/javascript_pomodoro_clock.gif)
 
 ---
 
 ## [5 Random Quote Machine](https://inspiredwebdev.com/tutorial/create-random-quote-machine)
 
-![random quote machine](/screenshots/5_random_quote.gif)
+![random quote machine](/screenshots/javascript_random_quote_machine.gif)
 
 ---
 
 ## [4 Smooth Scroll Navigation](https://inspiredwebdev.com/tutorial/smooth-scrolling-navigation)
 
-![smooth scroll navigation](/screenshots/3_smooth_scroll.gif)
+![smooth scroll navigation](/screenshots/javascript_smooth_scroll_navigation.gif)
 
 ---
 
 ## [3 JavaScript Carousel](https://www.inspiredwebdev.com/tutorial/javascript-carousel)
 
-![project 2 - javascript carousel](/screenshots/2_Carousel.gif)
+![project 2 - javascript carousel](/screenshots/javascript_carousel.gif)
 
 ---
 
 ## [2 Simple HTML Form](https://www.inspiredwebdev.com/tutorial/create-responsive-html-login-form)
 
-![project 1 - simple html form](/screenshots/1_HTML_form.png)
+![project 1 - simple html form](/screenshots/html_login_form.png)
 
 ---
 
 ## [1 To Do List](https://www.inspiredwebdev.com/tutorial/how-to-create-a-to-do-list-with-javascript)
 
-![project 1 - to do list](/screenshots/4_todo_list.png)
+![project 1 - to do list](/screenshots/javascript_todo_list.png)
