@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#content {
+    width: 70vw;
+}
+
+#content div {
+    height: 100vh;
+}
+
+#table-of-content {
+    width: 30vw;
+    position: sticky;
+    top: 0;
+}
